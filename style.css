@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    color: white;
+    background-image: url(/image/new\ year\ firework.jpg);
+    background-size: cover;
+    background-position: center center ;
+    min-height:100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-family: 'Kalam', cursive;
+    font-weight: normal;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+.big-text{
+    font-size: 8rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 2rem;
+}
